@@ -14,6 +14,7 @@ import alimento6 from "../assets/img-productsDog/alimento-6.jpg";
 import accesorio1 from "../assets/img-productsDog/accesorio-1.jpg";
 import accesorio2 from "../assets/img-productsDog/accesorio-2.jpg";
 import accesorio3 from "../assets/img-productsDog/accesorio-3.jpg";
+import accesorio4 from "../assets/img-productsDog/accesorio-4.jpg";
 
 /*Juguetes*/
 import juguete1 from "../assets/img-productsDog/juguete-1.jpg";
@@ -126,6 +127,16 @@ function ProductsDog() {
       id: "Accesorios-03",
       titulo: "Cama - Perro: Pequeño/Adulto",
       imagen: accesorio3,
+      categoria: {
+        nombre: "Accesorios",
+        id: "accesorios",
+      },
+      precio: 60,
+    },
+    {
+      id: "Accesorios-04",
+      titulo: "Transportador 100x67x75 cm",
+      imagen: accesorio4,
       categoria: {
         nombre: "Accesorios",
         id: "accesorios",
