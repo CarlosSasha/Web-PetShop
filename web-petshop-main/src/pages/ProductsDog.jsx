@@ -15,11 +15,16 @@ import accesorio1 from "../assets/img-productsDog/accesorio-1.jpg";
 import accesorio2 from "../assets/img-productsDog/accesorio-2.jpg";
 import accesorio3 from "../assets/img-productsDog/accesorio-3.jpg";
 import accesorio4 from "../assets/img-productsDog/accesorio-4.jpg";
+import accesorio5 from "../assets/img-productsDog/accesorio-5.jpg";
+import accesorio6 from "../assets/img-productsDog/accesorio-6.jpg";
 
 /*Juguetes*/
 import juguete1 from "../assets/img-productsDog/juguete-1.jpg";
 import juguete2 from "../assets/img-productsDog/juguete-2.jpg";
 import juguete3 from "../assets/img-productsDog/juguete-3.jpg";
+import juguete4 from "../assets/img-productsDog/juguete-4.jpg";
+import juguete5 from "../assets/img-productsDog/juguete-5.jpg";
+import juguete6 from "../assets/img-productsDog/juguete-6.jpg";
 
 /*Carrusel*/
 import Carrusel1 from "../assets/img-productsDog/carrusel-1.jpg";
@@ -135,13 +140,33 @@ function ProductsDog() {
     },
     {
       id: "Accesorios-04",
-      titulo: "Transportador 100x67x75 cm",
+      titulo: "Claws & Paws - Transportador 100x67x75 cm",
       imagen: accesorio4,
       categoria: {
         nombre: "Accesorios",
         id: "accesorios",
       },
-      precio: 60,
+      precio: 250,
+    },
+    {
+      id: "Accesorios-05",
+      titulo: "Dispensador de Agua - 1L",
+      imagen: accesorio5,
+      categoria: {
+        nombre: "Accesorios",
+        id: "accesorios",
+      },
+      precio: 50,
+    },
+    {
+      id: "Accesorios-06",
+      titulo: "Mpets Opera - Comedero doble",
+      imagen: accesorio6,
+      categoria: {
+        nombre: "Accesorios",
+        id: "accesorios",
+      },
+      precio: 30,
     },
     /*Juguetes */
     {
@@ -173,6 +198,36 @@ function ProductsDog() {
         id: "juguetes",
       },
       precio: 20,
+    },
+    {
+      id: "Juguetes-04",
+      titulo: "Tootoy! Cuerda Tentáculos",
+      imagen: juguete4,
+      categoria: {
+        nombre: "Juguetes",
+        id: "juguetes",
+      },
+      precio: 14.9,
+    },
+    {
+      id: "Juguetes-05",
+      titulo: "Disco color rosa",
+      imagen: juguete5,
+      categoria: {
+        nombre: "Juguetes",
+        id: "juguetes",
+      },
+      precio: 9.9,
+    },
+    {
+      id: "Juguetes-06",
+      titulo: "Yummy juguete dental sabor a tocino stick",
+      imagen: juguete6,
+      categoria: {
+        nombre: "Juguetes",
+        id: "juguetes",
+      },
+      precio: 34.9,
     },
   ];
 
